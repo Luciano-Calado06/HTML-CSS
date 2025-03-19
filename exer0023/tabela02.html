@@ -26,9 +26,19 @@
             background-color: lightgray;
         }
 
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;    
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top:  1px;
+            background-color: gray ;
         }
     </style>
 </head>
@@ -55,6 +65,10 @@
                 <td>Rio de Janeiro</td>
                 <td>17 264 943</td>
             </tr>
+            <tr>
+                <td>Ceará</td>
+                 <td> 2.574.412</td>
+            </tr>
         </tbody>
 
         <tfoot>
@@ -65,4 +79,3 @@
         </tfoot>
     </table>
 </body>
-</html>
